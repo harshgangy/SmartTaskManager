@@ -1,0 +1,24 @@
+/* Global background */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #24345a; /* or #f4f6fb if you prefer light */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+/* Smooth card feel */
+.card {
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Badge polish */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
